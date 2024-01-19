@@ -318,7 +318,6 @@ button:focus {
 }
 
 .content__video-card-description::after {
-    position: absolute;
     top: 0;
     left: 0;
     content: "Вот, что видит кто-то из команды Практикума, когда не смотрит на код, а смотрит в окно.";
