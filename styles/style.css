@@ -153,15 +153,13 @@ input:not([type="checkbox"])::placeholder {
 
 .search-form__pseudo-checkbox {
     content: "";
-    display: block;
-    position: relative;
+    display: flex;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     border: 1px solid #fff;
     width: 19px;
     height: 19px;
-    margin: 0;
     background-color: transparent;
     accent-color: #fff;
     cursor: pointer;
@@ -169,11 +167,9 @@ input:not([type="checkbox"])::placeholder {
 
 .search-form__pseudo-checkbox::after {
     content: "";
-    display: block;
-   /* position: absolute;*/
-    top: 1px;
+    display: flex;
+    margin: auto;
     justify-content: center;
-    left: 1px;
     width: 15px;
     height: 15px;
     background-color: #fff;
