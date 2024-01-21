@@ -18,7 +18,7 @@ html {
     height: 100%;
     margin: 0 auto;
     color: #fff;
-    font-family: "Fira Sans Condensed", sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 18px;
     background-color: #1b1919;
 }
@@ -48,7 +48,6 @@ ol {
     align-items: end;
     gap: 30px;
     max-width: 1140px;
-    height: 534px;
 }
 
 .result__video-container {
@@ -85,19 +84,18 @@ ol {
     width: 225px;
     border: none;
     appearance: none;
-    font-family: "Fira Sans Condensed";
+    font-family: 'Fira Sans Condensed', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
     line-height: 21.6px;
     letter-spacing: 0em;
     text-align: left;
-    bottom: 0;
 }
 
 .search-form__fieldset-title {
     appearance: none;
-    font-family: "Fira Sans Condensed";
+    font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 21.6px;
@@ -186,7 +184,7 @@ input:not([type="checkbox"])::placeholder {
     text-align: center;
     margin-top: auto;
     cursor: pointer;
-    font-family: "Fira Sans Condensed";
+    font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 22px;
@@ -220,7 +218,7 @@ button:focus {
 
 .title {
     text-transform: uppercase;
-    font-family: Oswald;
+    font-family: 'Oswald';
     font-size: 75px;
     font-weight: 700;
     line-height: 70px;
@@ -253,6 +251,7 @@ button:focus {
 .content__card-link {
     display: block;
     padding: 2px;
+    height: 107px;
     text-decoration: none;
 }
 
@@ -269,6 +268,12 @@ button:focus {
 .content__video-card-title {
     text-transform: uppercase;
     padding-top: 1px;
+    font-family: 'Oswald';
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
     font-size: 30px;
     font-weight: 700;
     line-height: 30px;
@@ -281,7 +286,6 @@ button:focus {
 
 .content__list-item {
     width: 394px;
-    height: 107px;
 }
 
 .content__card-list-item:focus {
@@ -289,7 +293,7 @@ button:focus {
     outline-offset: 1px;
 }
 
-.content__card-link:hover .content__video-card-description::after {
+.content__card-link:hover .content__video-card-description::before {
     text-decoration: underline;
 }
 
@@ -314,9 +318,7 @@ button:focus {
     color: transparent;
 }
 
-.content__video-card-description::after {
-    top: 0;
-    left: 0;
+.content__video-card-description::before {
     content: "Вот, что видит кто-то из команды Практикума, когда не смотрит на код, а смотрит в окно.";
     display: block;
     width: 200px;
