@@ -218,7 +218,7 @@ button:focus {
 
 .title {
     text-transform: uppercase;
-    font-family: 'Oswald';
+    font-family: 'Oswald', sans-serif;
     font-size: 75px;
     font-weight: 700;
     line-height: 70px;
@@ -268,7 +268,7 @@ button:focus {
 .content__video-card-title {
     text-transform: uppercase;
     padding-top: 1px;
-    font-family: 'Oswald';
+    font-family: 'Oswald', sans-serif;
     font-size: 75px;
     font-weight: 700;
     line-height: 70px;
@@ -293,7 +293,7 @@ button:focus {
     outline-offset: 1px;
 }
 
-.content__card-link:hover .content__video-card-description::before {
+.content__card-link:hover .content__video-card-description {
     text-decoration: underline;
 }
 
@@ -314,13 +314,6 @@ button:focus {
 }
 
 .content__video-card-description {
-    position: relative;
-    color: transparent;
-}
-
-.content__video-card-description::before {
-    content: "Вот, что видит кто-то из команды Практикума, когда не смотрит на код, а смотрит в окно.";
-    display: block;
     width: 200px;
     font-weight: 400;
     font-size: 18px;
